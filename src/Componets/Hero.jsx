@@ -6,7 +6,7 @@ import "../App.css"
 function Hero() {
   return (
     <div className="Hero-container">
-    <video  src="/public/videos/video-1.mp4"  autoPlay loop muted />
+    <video  src="/public/videos/video-2.mp4"  autoPlay loop muted />
     <h1>READY FOR YOUR NEW ADVENTURE</h1>
     <p> ARE YOU READY??</p>
     <div className="Hero-Btns">

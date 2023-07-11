@@ -1,6 +1,7 @@
 import React from "react"
 import {Button} from  "./Button"
 import  "./Footer.css"
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -29,7 +30,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
+            <Link to='/'>How it works</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
@@ -64,11 +65,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              LogoPAGE
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © {new Date().getFullYear()}</small>
+          <small class='website-rights'>LogoPAGE © {new Date().getFullYear()}</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom'
 import "./NavBar.css";
-import {Button} from  "./Button"
+import  {Button}  from  "./Button"
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [Button, setButton] =useState(true);
+    const [button, setButton] =useState(true);
 
     const HandleClick =() => setClick(!click);
     const CloseMobileMenu = () => setClick(false)
@@ -38,27 +38,27 @@ function Navbar() {
             </div>
         <ul className={click ? "nav-menu active": "nav-menu"}>
             <li className='nav-intem'>
-                <Link to="/Home" className='nav-links' onClick={CloseMobileMenu}>
+                <Link to="/" className='nav-links' onClick={CloseMobileMenu}>
                     HOME
                 </Link>
             </li>
-            <li className='nav-intem'>
+            <li className='nav-item'>
                 <Link to="/Services" className='nav-links' onClick={CloseMobileMenu}>
                     Services
                 </Link>
             </li>
-            <li className='nav-intem'>
+            <li className='nav-item'>
                 <Link to="/Products" className='nav-links' onClick={CloseMobileMenu}>
                     Products
                 </Link>
             </li>
-            <li className='nav-intem'>
+            <li className='nav-item'>
                 <Link to="/Costumers" className='nav-links' onClick={CloseMobileMenu}>
                     Costumers
                 </Link>
             </li>
-               {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
         </ul>
+               {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} 
         </div>
     </nav>
     </>

@@ -1,43 +1,51 @@
-import React from 'react'
-import CardItem from './CardItem'
-import "./Cards.css"
+import React from 'react';
+import './Cards.css';
+import CardItem from './CardItem';
 
 function Cards() {
   return (
-    <div className='Cards'>
-        <h1>Check out  these EPiC ADVENTURES</h1>
-        <div className="cards-container">
-         <div className="cards-wrapper">
-            <ul className="cards-items">
-            <CardItem 
-             src = "images/img-9.jpg"
-            text  = "Explore the Hidde  waterfall deep iside The Amazo Jugle"
-            label = "Avetures"
-            path ="/src/Componets/Pages/Products.jsx"
+    <div className='cards'>
+      <h1>Check out these EPIC Destinations!</h1>
+      <div className='cards__container'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/img-12.jpg'
+              text='Explore the 7 Lakes of San Carlos bariloche'
+              label='Adventure'
+              path='/services'
             />
-            <CardItem 
-             src = "images/img-2.jpg"
-            text  = "Explore the Hidde  waterfall deep iside The Amazo Jugle"
-            label = "Luxury"
-            path ="/src/Componets/Pages/Products.jsx"
+            <CardItem
+              src='images/img-13.jpg'
+              text='Travel through the Islands of Los Roques in a Private Cruise'
+              label='Luxury'
+              path='/services'
             />
-            <CardItem 
-             src = "images/img-5.jpg"
-            text  = "Explore the Hidde  waterfall deep iside The Amazo Jugle"
-            label = "Avetures"
-            path ="/src/Componets/Pages/Products.jsx"
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/img-10.jpg'
+              text='Explore the Amazing Amalfi Coast'
+              label='Luxury'
+              path='/services'
             />
-            <CardItem 
-             src = "images/img-4.jpg"
-            text  = "Explore the Hidde  waterfall deep iside The Amazo Jugle"
-            label = "Avetures"
-            path ="/src/Componets/Pages/Products.jsx"
+            <CardItem
+              src='images/img-11.jpg'
+              text='Experience The Efil Tower'
+              label='Adventure'
+              path='/services'
             />
-            </ul>
+            <CardItem
+              src='images/img-8.jpg'
+              text='Ride through the Sahara Desert on a guided camel tour'
+              label='Adrenaline'
+              path='/services'
+            />
+          </ul>
         </div>
-        </div>    
+      </div>
     </div>
-  )
+  );
 }
 
-export default Cards
+export default Cards;

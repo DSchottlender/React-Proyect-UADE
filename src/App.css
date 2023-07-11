@@ -19,15 +19,17 @@
   .Services {
     background-image: url('/images/img-2.jpg');
     background-position: center;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
   }
   
-  .Products {
+  .products {
     background-image: url('/images/img-1.jpg');
     background-position: center;
+    width: 100%;
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
@@ -38,6 +40,7 @@
     background-image: url('/images/img-8.jpg');
     background-position: center;
     background-size: cover;
+    width: 100%;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
