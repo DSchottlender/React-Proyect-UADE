@@ -3,9 +3,9 @@ import './App.css'
 import Navbar from './Componets/NavBar'
 import { Routes, Route } from "react-router-dom";
 import Home from './Componets/Pages/HOME'
-import Products from './Componets/Pages/PRODUCTS'
-import Services from './Componets/Pages/SERVICES'
-import Costumers from './Componets/Pages/Costumers'
+import Services from './Componets/Pages/Services';
+import Costumers from './Componets/Pages/Costumers';
+import  Products from './Componets/Pages/Products'
 
 
 

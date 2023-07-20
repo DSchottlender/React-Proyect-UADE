@@ -65,11 +65,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              LogoPAGE
-              <i class='fab fa-typo3' />
+              UTRAVEL
+              <i class="fa-solid fa-earth-europe"></i>
             </Link>
           </div>
-          <small class='website-rights'>LogoPAGE © {new Date().getFullYear()}</small>
+          <small class='website-rights'>UTRAVEL<i class="fa-solid fa-earth-europe"></i> © {new Date().getFullYear()}</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

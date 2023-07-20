@@ -1,0 +1,16 @@
+.h1 {
+    font-size: 2rem;
+    padding: 10rem 0 0 0;
+    color: whitesmoke;
+}
+
+.Destinations{
+    padding: 5rem 2rem;
+    margin: auto;
+    max-width: var(--max-content);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}

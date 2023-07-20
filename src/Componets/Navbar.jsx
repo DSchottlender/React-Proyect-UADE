@@ -30,8 +30,8 @@ function Navbar() {
     <>
     <nav className='Navbar'>
         <div className="navbar-container">
-            <Link  to="/navbar" classNamen= "narvar-logo"  onClick={CloseMobileMenu}> 
-            LOGO APLICATION <i className="fab fa-typo3"></i>
+            <Link  to="/" classNamen= "narvar-logo"  onClick={CloseMobileMenu}> 
+            UTRAVEL<i class="fa-solid fa-earth-europe"></i>
             </Link>
             <div className='menu-icon'>
              <i className={click ? "fas fas-times": "fas fas-bars"}/>
@@ -39,7 +39,7 @@ function Navbar() {
         <ul className={click ? "nav-menu active": "nav-menu"}>
             <li className='nav-intem'>
                 <Link to="/" className='nav-links' onClick={CloseMobileMenu}>
-                    HOME
+                    Home
                 </Link>
             </li>
             <li className='nav-item'>

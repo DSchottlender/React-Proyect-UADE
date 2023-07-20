@@ -16,13 +16,16 @@ function Hero() {
         ButtonSize="Btn--large"
         > 
         GET STARTED
+        
+        <i className="far-fa-play-circle"/>
     </Button> 
     <Button  
         className="Btns" 
         buttonStyle="Btn--primary" 
         ButtonSize="Btn--large"
         > 
-        Watch Trailer <i className="far-fa-play-circle"/>
+        Watch Trailer
+         <i className="far-fa-play-circle"/>
     </Button> 
     </div>
  </div>
